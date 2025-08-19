@@ -128,58 +128,6 @@
   }
 }
 
-/* Added elegant custom cursor styles for eleven11 brand */
-@layer utilities {
-  /* Custom cursor styles */
-  .cursor-elegant {
-    cursor: none;
-  }
-
-  .cursor-elegant::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9999;
-    transform: translate(-50%, -50%);
-    transition: all 0.1s ease;
-    mix-blend-mode: difference;
-  }
-
-  .cursor-elegant:hover::before {
-    width: 40px;
-    height: 40px;
-    background: rgba(99, 102, 241, 0.6);
-    mix-blend-mode: normal;
-  }
-}
-
-/* Global cursor override */
-* {
-  cursor: none !important;
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  background: rgba(255, 255, 255, 0.8);
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9999;
-  transform: translate(-50%, -50%);
-  transition: all 0.15s ease;
-  mix-blend-mode: difference;
-}
 
 /* Hover state for interactive elements */
 a:hover ~ body::after,
