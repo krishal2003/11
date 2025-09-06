@@ -118,11 +118,11 @@ export default function ContactPage() {
                         <h3 className="text-white font-sans font-semibold mb-1">
                           Email
                         </h3>
-                        <p className="text-white/70">eleven11np@gmail.com</p>
+                        <p className="text-white/70">info@eleven11np.com</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start space-x-4">
+                    {/* <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center flex-shrink-0">
                         <svg
                           className="w-6 h-6 text-primary"
@@ -144,7 +144,7 @@ export default function ContactPage() {
                         </h3>
                         <p className="text-white/70">+977 9802000922</p>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center flex-shrink-0">

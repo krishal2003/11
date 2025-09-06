@@ -5,12 +5,6 @@ export default function HeroSection() {
         {/* Content Overlay */}
         <div className="relative z-10 text-white px-6 sm:px-8 max-w-7xl mx-auto">
           {/* Top Right Text - hide on small, show on md+ */}
-          <div className="hidden md:block absolute top-20 right-8 text-right">
-            <p className="text-sm font-sans tracking-wider leading-relaxed">
-              OFFICIAL WEBSITE,
-              <br />& PORTFOLIO SHOWCASE
-            </p>
-          </div>
 
           {/* Mobile Top Text (show only on mobile) */}
           <div className="block md:hidden text-left mb-6">

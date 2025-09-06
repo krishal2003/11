@@ -11,7 +11,7 @@ export default function Navigation() {
   const navItems = [
     { name: "HOME", href: "/" },
     { name: "PORTFOLIO", href: "/portfolio" },
-    { name: "EVENTS", href: "/events" },
+    { name: "UPCOMING", href: "/upcoming" },
     { name: "ABOUT US", href: "/about" },
     { name: "CONTACT US", href: "/contact" },
   ];
@@ -77,11 +77,14 @@ export default function Navigation() {
                     />
                   </svg>
                 </button>
-                <Link href="/events/gastronomy">
+                <Link
+                  href="https://www.usanepalgastronomychefsassociation.com/events"
+                  target="_blank"
+                >
                   <div className="p-6 pr-12">
                     <div className="w-80 h-60 relative overflow-hidden rounded-lg group">
                       <img
-                        src="/usa.png"
+                        src="/save.png"
                         alt="eleven11 Exclusive Preview"
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       />

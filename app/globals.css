@@ -130,10 +130,7 @@
 
 /* Added elegant custom cursor styles for eleven11 brand */
 @layer utilities {
-  /* Custom cursor styles */
-  .cursor-elegant {
-    cursor: none;
-  }
+
 
   .cursor-elegant::before {
     content: "";
@@ -160,9 +157,7 @@
 }
 
 /* Global cursor override */
-* {
-  cursor: none !important;
-}
+
 
 body::after {
   content: "";

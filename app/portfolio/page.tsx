@@ -10,76 +10,203 @@ export default function Portfolio() {
 
   const featuredArtists = [
     {
-      name: "1974 AD",
-      genre: "Rock",
+      name: "ROCK YATRA 2: 1974 AD ",
+      genre: "Events",
       description:
         "Nepal’s legendary rock band, celebrated for their 30-year legacy and iconic performances worldwide.",
       status: "ROCK YATRA 2",
       upcoming: "Rock Yatra 2 – Apr 5, 2025",
       image: "/1974.jpg",
-      link: "https://open.spotify.com/artist/1bhmp8nhm8Bddn9OKiptAT?si=DOttb3-tRPiJj67-MWIyTA",
+      link: "https://www.instagram.com/p/DI6IE0ISOor/",
     },
     {
       name: "Prateek Kuhad",
       genre: "International Artist",
       description:
-        "One of India’s most acclaimed singer-songwriters, known for his soulful, heart-touching music.",
+        "Acclaimed Indian singer-songwriter, known for his heartfelt lyrics and intimate performances across the globe.",
       status: "SILHOUETTES TOUR",
       upcoming: "Silhouettes Tour – Oct 26, 2024",
       image: "/prateek.jpeg",
-      link: "https://open.spotify.com/artist/1bhmp8nhm8Bddn9OKiptAT?si=DOttb3-tRPiJj67-MWIyTA",
+      link: "https://www.instagram.com/p/C-FpHWbyHdT/",
     },
     {
       name: "Bipul Chettri",
-      genre: "Folk Fusion",
+      genre: "Artist Management",
       description:
-        "Beloved Nepali singer-songwriter blending folk roots with modern storytelling.",
-      status: "ARTIST MANAGEMENT",
+        "Beloved Nepali singer-songwriter, blending Himalayan folk traditions with contemporary storytelling.",
+      status: "Artist Management",
       upcoming: "Special Showcase – TBA",
       image: "/bipul.jpeg",
-      link: "https://open.spotify.com/artist/1bhmp8nhm8Bddn9OKiptAT?si=DOttb3-tRPiJj67-MWIyTA",
+      link: "https://www.instagram.com/p/BzSKDM3ly4k/",
     },
     {
       name: "Manu Chao",
       genre: "International Artist",
       description:
-        "Internationally renowned artist blending Latin, reggae, ska, and global sounds into powerful live experiences.",
+        "Globally celebrated musician, fusing Latin, reggae, and ska into high-energy, multicultural live shows.",
       status: "ULTRA ACOUSTIC",
       upcoming: "Ultra Acusticò – Mar 16, 2025",
       image: "/manu.jpg",
-      link: "https://open.spotify.com/artist/1bhmp8nhm8Bddn9OKiptAT?si=DOttb3-tRPiJj67-MWIyTA",
+      link: "https://www.instagram.com/p/DGF8jXXy1dg/",
     },
     {
       name: "Albatross",
-      genre: "Alternative Rock",
+      genre: "Band",
       description:
-        "One of Nepal’s most influential rock bands, known for their powerful live performances.",
-      status: "ARTIST MANAGEMENT",
+        "One of Nepal’s most influential rock bands, praised for their powerful stage presence and loyal fan base.",
+      status: "Band",
       upcoming: "National Tour – TBA",
       image: "/albra.jpg",
-      link: "https://open.spotify.com/artist/1bhmp8nhm8Bddn9OKiptAT?si=DOttb3-tRPiJj67-MWIyTA",
+      link: "https://www.instagram.com/p/B3AFPVPBR4E/",
     },
     {
       name: "Ritviz",
       genre: "International Artist",
       description:
-        "Genre-bending producer and singer redefining India’s electronic music scene with infectious beats.",
+        "Indian electronic producer and vocalist, famous for his infectious beats and unique blend of folk and EDM.",
       status: "LIVE IN NEPAL",
       upcoming: "Ritviz Live in Nepal – Sep 17, 2022",
       image: "/ritvitz.png",
-      link: "https://open.spotify.com/artist/1bhmp8nhm8Bddn9OKiptAT?si=DOttb3-tRPiJj67-MWIyTA",
+      link: "https://www.instagram.com/p/ChwSDffsZJY/",
+    },
+    {
+      name: "Nepal Inked Tattoo Festival",
+      genre: "Others",
+      description:
+        "Nepal’s largest celebration of tattoo culture, bringing together global artists, music, and alternative art.",
+      status: "Tattoo Festival",
+      upcoming: "Annual Edition – TBA",
+      image: "/inked.png",
+      link: "https://www.instagram.com/p/CzBtq_Lv1IQ/",
+    },
+    {
+      name: "Wim Hof Method in Nepal",
+      genre: "Others",
+      description:
+        "World-renowned ‘Iceman,’ leading workshops on breathwork, resilience, and the Wim Hof Method in Nepal.",
+      status: "Wim Hof Method in Nepal",
+      upcoming: "Workshop – TBA",
+      image: "/wim.jpg",
+      link: "https://www.instagram.com/p/CeaoiVyo01F/",
+    },
+    {
+      name: "Divine",
+      genre: "International Artist",
+      description:
+        "Trailblazing Indian rapper, credited with pioneering desi hip-hop and inspiring millions through his music.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Divine Live in Nepal – TBA",
+      image: "/divine.png",
+      link: "https://www.instagram.com/p/BxEHYykgdud/",
+    },
+    {
+      name: "Himalayan Outdoor Festival",
+      genre: "Others",
+      description:
+        "Nepal’s premier outdoor lifestyle festival, uniting music, adventure sports, and community in the Himalayas.",
+      status: "Outdoor Festival",
+      upcoming: "Next Edition – TBA",
+      image: "/himalayan.png",
+      link: "https://www.instagram.com/p/B7xj4qhBHiq/",
+    },
+    {
+      name: "PAJI",
+      genre: "International Artist",
+      description:
+        "German live-act and producer, combining electronic beats with violin to create a truly unique soundscape.",
+      status: "LIVE IN NEPAL",
+      upcoming: "PAJI Live in Nepal – TBA",
+      image: "/paji.png",
+      link: "https://www.instagram.com/p/BsK6z2ElIRp/",
+    },
+    {
+      name: "Jojo Mayer",
+      genre: "International Artist",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/jojo.jpg",
+      link: "https://www.instagram.com/p/B2GU-wzB3-W/",
+    },
+    {
+      name: "Mero Remit",
+      genre: "Branding",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/remit.png",
+      link: "https://www.facebook.com/photo/?fbid=10150921641803108&set=pb.100067892504198.-2207520000",
+    },
+    {
+      name: "Dance 4 Life",
+      genre: "Social Work",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/dace.jpg",
+      link: "https://www.facebook.com/photo/?fbid=10150213283373108&set=pb.100067892504198.-2207520000",
+    },
+    {
+      name: "Sold",
+      genre: "Movies",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/sold.jpg",
+      link: "https://www.imdb.com/title/tt1411956/",
+    },
+    {
+      name: "Acharya",
+      genre: "Movies",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/acharya.jpg",
+      link: "https://www.imdb.com/title/tt2055577/",
+    },
+    {
+      name: "Attic",
+      genre: "Branding",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/attic.jpg",
+      link: "https://www.facebook.com/photo/?fbid=10150921677053108&set=pb.100067892504198.-2207520000",
+    },
+    {
+      name: "Mintz",
+      genre: "Branding",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/mintz.jpg",
+      link: "https://www.facebook.com/photo/?fbid=10150921681508108&set=pb.100067892504198.-2207520000",
+    },
+    {
+      name: "Haul Apparel",
+      genre: "Branding",
+      description:
+        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+      status: "LIVE IN NEPAL",
+      upcoming: "Jojo Mayer Live in Nepal – TBA",
+      image: "/haul.jpg",
+      link: "https://www.facebook.com/photo/?fbid=10153356701848108&set=pb.100067892504198.-2207520000",
     },
   ];
 
   const genres = [
     "All",
+    "Events",
     "International Artist",
-    "Rock",
-    "Indie Pop",
-    "World Music",
-    "Electronic / Indie",
-    "Folk Fusion",
-    "Alternative Rock",
+    "Artist Management",
+    "Others",
   ];
 
   const filteredArtists =
@@ -134,7 +261,7 @@ export default function Portfolio() {
                   <button
                     key={index}
                     onClick={() => setSelectedGenre(genre)}
-                    className={`px-4 py-2 rounded-full text-sm font-sans transition-colors duration-300 ${
+                    className={`px-4 py-2 rounded-full text-sm font-sans transition-colors duration-300 cursor-pointer ${
                       selectedGenre === genre
                         ? "bg-primary text-black"
                         : "bg-white/10 hover:bg-primary/20 text-white hover:text-primary"
@@ -183,8 +310,8 @@ export default function Portfolio() {
 
                         <div className="flex space-x-3">
                           <Link href={artist.link} target="_blank">
-                            <button className="bg-primary hover:bg-primary/80 text-black font-sans font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">
-                              View Profile
+                            <button className="bg-primary hover:bg-primary/80 text-black font-sans font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm cursor-pointer">
+                              View More
                             </button>
                           </Link>
                         </div>
@@ -296,9 +423,9 @@ export default function Portfolio() {
               </Link>
             </div>
           </div>
+          <Footer />
         </div>
       </main>
-      <Footer />
     </>
   );
 }
