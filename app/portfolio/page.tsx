@@ -133,7 +133,7 @@ export default function Portfolio() {
       name: "Mero Remit",
       genre: "Branding",
       description:
-        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+        "Mero Remit is a digital money transfer service operating in Nepal, facilitating the sending and receiving of funds both domestically and internationally.",
       status: "LIVE IN NEPAL",
       upcoming: "Jojo Mayer Live in Nepal – TBA",
       image: "/remit.png",
@@ -153,7 +153,7 @@ export default function Portfolio() {
       name: "Sold",
       genre: "Movies",
       description:
-        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+        "A girl risks everything for freedom after being trafficked from her mountain village in Nepal to a brothel in India.",
       status: "LIVE IN NEPAL",
       upcoming: "Jojo Mayer Live in Nepal – TBA",
       image: "/sold.jpg",
@@ -163,7 +163,7 @@ export default function Portfolio() {
       name: "Acharya",
       genre: "Movies",
       description:
-        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+        "Legendary Nepali singer who rose from poverty to fame, defying fate until illness silenced his voice, leaving his musical legacy to his sons.",
       status: "LIVE IN NEPAL",
       upcoming: "Jojo Mayer Live in Nepal – TBA",
       image: "/acharya.jpg",
@@ -173,7 +173,7 @@ export default function Portfolio() {
       name: "Attic",
       genre: "Branding",
       description:
-        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+        "Attic Restaurant in Gyaneshwor, Kathmandu, offers a cozy ambiance with indoor and outdoor seating, serving Nepali, Indian, and Asian dishes, along with live music on Fridays.",
       status: "LIVE IN NEPAL",
       upcoming: "Jojo Mayer Live in Nepal – TBA",
       image: "/attic.jpg",
@@ -193,7 +193,7 @@ export default function Portfolio() {
       name: "Haul Apparel",
       genre: "Branding",
       description:
-        "Swiss-born drumming virtuoso, pushing the boundaries of jazz, electronic, and live improvisation.",
+        "Haul Apparel is an Indian streetwear brand founded in 2015 and based in Bangalore. The label draws inspiration from subcultures such as skateboarding, surfing, music, tattoos, and street art, creating limited-edition clothing for niche lifestyle enthusiasts.",
       status: "LIVE IN NEPAL",
       upcoming: "Jojo Mayer Live in Nepal – TBA",
       image: "/haul.jpg",
