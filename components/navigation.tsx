@@ -11,7 +11,10 @@ export default function Navigation() {
   const navItems = [
     { name: "HOME", href: "/" },
     { name: "PORTFOLIO", href: "/portfolio" },
-    { name: "UPCOMING", href: "/upcoming" },
+    // { name: "UPCOMING", href: "/upcoming" },
+
+    { name: "CULINARY", href: "/culinary" },
+
     { name: "ABOUT US", href: "/about" },
     { name: "CONTACT US", href: "/contact" },
   ];
