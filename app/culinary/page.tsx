@@ -45,7 +45,7 @@ export default function Portfolio() {
         "/dd.jpg",
         "/ee.jpg",
         "/ii.jpg",
-        "/a.jpg",
+        "/aa.jpg",
         "/hh.jpg",
         "/jj.jpg",
         "/ff.jpg",
